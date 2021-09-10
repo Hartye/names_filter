@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hartye" />
+    <meta name="description" content="Site de testes" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body onload="DOM.loadDate()">
+    <main>
+      <input
+        type="text"
+        name="search"
+        id="myInput"
+        onkeyup="DOM.runFun()"
+        autocomplete="off"
+      />
+
+      <ul id="myUl">
+        <li><a href="#">Amélia</a></li>
+        <li><a href="#">Antônio</a></li>
+        <li><a href="#">Alice</a></li>
+
+        <li><a href="#">Bruno</a></li>
+        <li><a href="#">Billy</a></li>
+
+        <li><a href="#">Mateus</a></li>
+        <li><a href="#">Miguel</a></li>
+      </ul>
+    </main>
+    <footer>
+      <div class="copy">&copy; <span class="date"></span> Hartye</div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
